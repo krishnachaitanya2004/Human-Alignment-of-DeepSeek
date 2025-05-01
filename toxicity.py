@@ -61,7 +61,7 @@ def get_response(question):
         model="deepseek-ai/DeepSeek-V3",
         messages=[{"role": "user", "content": prompt}],
         max_tokens=20,
-        n=5,
+        n=25,
         temperature=1,
         top_p=0.9
     )
