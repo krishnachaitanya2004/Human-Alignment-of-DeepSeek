@@ -7,7 +7,7 @@ import concurrent.futures
 from functools import partial
 
 
-api_key = "tgp_v1_lMRRqHglTQxiy8iGJNBRRsHuDlr8pHlPvgl26i_5XwU"
+api_key = "YOUR_API_KEY"
 
 # Initialize client once for thread safety
 client = Together(api_key=api_key)
