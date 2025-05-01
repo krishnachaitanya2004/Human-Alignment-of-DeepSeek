@@ -10,8 +10,8 @@ import requests
 import random
 from datasets import Dataset
 
-deepseek_api_key = "tgp_v1_lMRRqHglTQxiy8iGJNBRRsHuDlr8pHlPvgl26i_5XwU"
-toxicity_api_key = "AIzaSyDf_RnkKJuoMoJSUmX92CxmDOOb4iGPXBA"
+deepseek_api_key = "YOUR_API_KEY"
+toxicity_api_key ="YOUR_API_KEY"
 url = f"https://commentanalyzer.googleapis.com/v1alpha1/comments:analyze?key={toxicity_api_key}"
 
 
