@@ -91,8 +91,6 @@ for item in tqdm(train_data):
             item['continuation']['toxicity'] = 0
         low_toxicity.append(item)
 
-print(len(high_toxicity))
-print(len(low_toxicity))
 
 high_toxicity = sorted(high_toxicity, key=lambda x: x['continuation']['toxicity'], reverse=True)
 low_toxicity = sorted(low_toxicity, key=lambda x: x['continuation']['toxicity'])
@@ -103,7 +101,6 @@ random.shuffle(final_data)
 subset = Dataset.from_list(final_data)
 num_rows = subset.num_rows
 
-print(subset[2])
 
 def process_data(i):
     try:
@@ -144,7 +141,4 @@ with open("english_Toxic_scores.json", "w", encoding="utf-8") as f:
     json.dump(data_list, f, indent=4, ensure_ascii=False)
 
 print("JSON file created successfully!")
-
-from google.colab import files
-files.download('english_Toxic_scores.json')
 
