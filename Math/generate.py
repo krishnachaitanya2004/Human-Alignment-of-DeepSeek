@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1fbp3yv8__QmAitCOlfb4KeSb1mgZ99g8
 """
 
-# !pip install transformers datasets together gdown
 
 from together import Together
 import json
@@ -16,19 +15,24 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import sys
 
 typ = sys.argv[1]
+prompt_tech = sys.argv[2]
 api_key = "YOUR_API_KEY"
 client = Together(api_key=api_key)
 
-# !gdown 1vosQjGJt8tp0EbLlQxMRt6ygFCAS7hbQ
 
-with open(f"./{typ}_gsm8k.json", "r", encoding="utf-8") as f:
+with open(f"./dataset/{typ}_gsm8k.json", "r", encoding="utf-8") as f:
     train_data = json.load(f)
 
 num_rows = len(train_data)
 
+prompt_dic = {
+    "std" : "Answer the question directly. Do not return any preamble, explanation, or reasoning.",
+    "cot": "Think step by step to answer the following question. Return the answer at the end of the response after a separator ####."
+}
+
 def eval_model(question):
     prompt = f"""
-Think step by step to answer the following question. Return the answer at the end of the response after a separator ####.
+{prompt_dic[prompt_tech]}
 Question: {question}
 Answer:"""
     cot_eval = client.chat.completions.create(
@@ -66,7 +70,7 @@ with ThreadPoolExecutor(max_workers=8) as executor:
         if result:
             data_list.append(result)
 
-with open(f"results/{typ}_GSMK_cot.json", "w", encoding="utf-8") as f:
+with open(f"results/{typ}_GSMK_{prompt_tech}.json", "w", encoding="utf-8") as f:
     json.dump(data_list, f, indent=4, ensure_ascii=False)
 
 print("JSON file created successfully!")
