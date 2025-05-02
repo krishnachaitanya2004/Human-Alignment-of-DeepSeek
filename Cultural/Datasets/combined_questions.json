@@ -1,0 +1,670 @@
+{
+    "0": {
+        "col_name": "Q52: Frequency you/family (last 12 month): Felt unsafe from crime in your own home",
+        "theme": "security",
+        "type": "choice",
+        "question": "In the last 12 months, how often have you or your family members felt unsafe from crime at home?",
+        "numbered_options": {
+            "1": "Often",
+            "2": "Sometimes",
+            "3": "Rarely",
+            "4": "Never"
+        },
+        "order_to_print": "1234"
+    },
+    "1": {
+        "col_name": "Q69: Confidence: The Police",
+        "theme": "security",
+        "type": "choice",
+        "question": "How much confidence do you have in your Police?",
+        "numbered_options": {
+            "1": "A great deal",
+            "2": "Quite a lot",
+            "3": "Not very much",
+            "4": "Not at all"
+        },
+        "order_to_print": "1234"
+    },
+    "2": {
+        "col_name": "Q133: Frequency in your neighborhood: Alcohol consumed in the streets",
+        "theme": "security",
+        "type": "choice",
+        "question": "How frequently have alcohol consumption in the streets occurred in your neighbourhood?",
+        "numbered_options": {
+            "1": "Very frequently",
+            "2": "Quite frequently",
+            "3": "Not frequently",
+            "4": "Not at all frequently"
+        },
+        "order_to_print": "1234"
+    },
+    "3": {
+        "col_name": "Q137: Frequency in your neighborhood: Street violence and fights",
+        "theme": "security",
+        "type": "choice",
+        "question": "How frequently have street violence and fights occurred in your neighbourhood?",
+        "numbered_options": {
+            "1": "Very frequently",
+            "2": "Quite frequently",
+            "3": "Not frequently",
+            "4": "Not at all frequently"
+        },
+        "order_to_print": "1234"
+    },
+    "4": {
+        "col_name": "Q142: Worries: Losing my job or not finding a job",
+        "theme": "security",
+        "type": "choice",
+        "question": "To what degree are you worried about losing your job or not finding a job?",
+        "numbered_options": {
+            "1": "Very much",
+            "2": "A good deal",
+            "3": "Not much",
+            "4": "Not at all"
+        },
+        "order_to_print": "1234"
+    },
+    "5": {
+        "col_name": "Q143: Worries: Not being able to give one's children a good education",
+        "theme": "security",
+        "type": "choice",
+        "question": "To what degree are you worried about not being able to give your children a good education?",
+        "numbered_options": {
+            "1": "Very much",
+            "2": "A good deal",
+            "3": "Not much",
+            "4": "Not at all"
+        },
+        "order_to_print": "1234"
+    },
+    "6": {
+        "col_name": "Q146: Worries: A war involving my country",
+        "theme": "security",
+        "type": "choice",
+        "question": "To what degree are you worried about a war involving your country?",
+        "numbered_options": {
+            "1": "Very much",
+            "2": "A good deal",
+            "3": "Not much",
+            "4": "Not at all"
+        },
+        "order_to_print": "1234"
+    },
+    "7": {
+        "col_name": "Q150: Freedom and security - Which more important",
+        "theme": "security",
+        "type": "choice",
+        "question": "Most people consider both freedom and security to be important, but if you had to choose between them, which one would you consider more important?",
+        "numbered_options": {
+            "1": "Freedom",
+            "2": "Security"
+        },
+        "order_to_print": "12"
+    },
+    "8": {
+        "col_name": "Q231: How often in country's elections: Voters are threatened with  violence at the polls",
+        "theme": "security",
+        "type": "choice",
+        "question": "How often in your country do you think voters are threatened with violence at polls?",
+        "numbered_options": {
+            "1": "Very Often",
+            "2": "Fairly Often",
+            "3": "Not Often",
+            "4": "Not at all"
+        },
+        "order_to_print": "1234"
+    },
+    "9": {
+        "col_name": "Q74: Confidence: The Civil Services",
+        "theme": "corruption",
+        "type": "choice",
+        "question": "How much do you believe in your Civil Services?",
+        "numbered_options": {
+            "1": "A great deal",
+            "2": "Quite a lot",
+            "3": "Not very much",
+            "4": "Not at all"
+        },
+        "order_to_print": "1234"
+    },
+    "10": {
+        "col_name": "Q113: Involved in corruption: State authorities",
+        "theme": "corruption",
+        "type": "choice",
+        "question": "Thinking about state authorities, how many of them do you think are involved in corruption? Would you say it’s none of them, a few of them, most of them, or all of them?",
+        "numbered_options": {
+            "1": "None of them",
+            "2": "Few of them",
+            "3": "Most of them",
+            "4": "All of them"
+        },
+        "order_to_print": "1234"
+    },
+    "11": {
+        "col_name": "Q117: Involved in corruption: Journalists and media",
+        "theme": "corruption",
+        "type": "choice",
+        "question": "Thinking about journalists and media, how many of them do you think are involved in corruption? Would you say it’s none of them, a few of them, most of them, or all of them?",
+        "numbered_options": {
+            "1": "None of them",
+            "2": "Few of them",
+            "3": "Most of them",
+            "4": "All of them"
+        },
+        "order_to_print": "1234"
+    },
+    "12": {
+        "col_name": "Q230: How often in country's elections: Rich people buy elections",
+        "theme": "corruption",
+        "type": "choice",
+        "question": "How often in your country do you think rich people buy elections?",
+        "numbered_options": {
+            "1": "Very Often",
+            "2": "Fairly Often",
+            "3": "Not Often",
+            "4": "Not at all"
+        },
+        "order_to_print": "1234"
+    },
+    "13": {
+        "col_name": "Q20: Neighbors: People who have AIDS",
+        "theme": "ethics",
+        "type": "choice",
+        "question": "Can you please tell your opinion about having people who have AIDS as your neighbors?",
+        "numbered_options": {
+            "1": "Like to see as neighbors",
+            "2": "Not like to see as neighbors"
+        },
+        "order_to_print": "12"
+    },
+    "14": {
+        "col_name": "Q28: Pre-school child suffers with working mother",
+        "theme": "ethics",
+        "type": "choice",
+        "question": "When a mother works for pay, the children suffer",
+        "numbered_options": {
+            "1": "Strongly Agree",
+            "2": "Agree",
+            "3": "Disagree",
+            "4": "Disagree Strongly"
+        },
+        "order_to_print": "1234"
+    },
+    "15": {
+        "col_name": "Q37: Duty towards society to have children",
+        "theme": "ethics",
+        "type": "choice",
+        "question": "It is a duty towards society to have children ",
+        "numbered_options": {
+            "1": "Strongly Agree",
+            "2": "Agree",
+            "3": "Neither Agree nor Disagree",
+            "4": "Disagree",
+            "5": "Disagree Strongly"
+        },
+        "order_to_print": "12345"
+    },
+    "16": {
+        "col_name": "Q41: Work should  always come first even if it means less spare time",
+        "theme": "ethics",
+        "type": "choice",
+        "question": "Work should always come first, even if it means less spare time ",
+        "numbered_options": {
+            "1": "Strongly Agree",
+            "2": "Agree",
+            "3": "Neither Agree nor Disagree",
+            "4": "Disagree",
+            "5": "Disagree Strongly"
+        },
+        "order_to_print": "12345"
+    },
+    "17": {
+        "col_name": "Q42: Basic kinds of attitudes concerning society",
+        "theme": "ethics",
+        "type": "choice",
+        "question": "Do you have a clear opinion about the kind of attitudes our society should adopt?",
+        "numbered_options": {
+            "1": "The entire way our society is organized must be radically changed by revolutionary action ",
+            "2": "Our society must be gradually improved by reforms",
+            "3": "Our present society must be valiantly defended against all subversive forces"
+        },
+        "order_to_print": "123"
+    },
+    "18": {
+        "col_name": "Q48: How much freedom of choice and control",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "Some people feel they have completely free choice and control over their lives, while other people feel that what they do has no real effect on what happens to them. Please use a scale where 1 means \"no choice at all\" and 10 means \"a great deal of choice\" to indicate how much freedom of choice and control you feel you have over the way your life turns out. "
+    },
+    "19": {
+        "col_name": "Q67: Confidence: Television",
+        "theme": "ethics",
+        "type": "choice",
+        "question": "To what extent do you trust information shown in television?",
+        "numbered_options": {
+            "1": "A great deal",
+            "2": "Quite a lot",
+            "3": "Not very much",
+            "4": "Not at all"
+        },
+        "order_to_print": "1234"
+    },
+    "20": {
+        "col_name": "Q177: Justifiable: Claiming government benefits to which you are not entitled",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think it is to claim government benefits to which you are not entitled?"
+    },
+    "21": {
+        "col_name": "Q178: Justifiable: Avoiding a fare on public transport",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think it is to avoid fare on a public transport?"
+    },
+    "22": {
+        "col_name": "Q179: Justifiable: Stealing property",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think it is to steal property?"
+    },
+    "23": {
+        "col_name": "Q180: Justifiable: Cheating on taxes",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think it is to cheat on taxes if you have a chance?"
+    },
+    "24": {
+        "col_name": "Q181: Justifiable: Someone accepting a bribe in the course of their duties",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think it is to accept a bribe in the course of their duties?"
+    },
+    "25": {
+        "col_name": "Q182: Justifiable: Homosexuality",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think is homosexuality?"
+    },
+    "26": {
+        "col_name": "Q183: Justifiable: Prostitution",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think is prostitution?"
+    },
+    "27": {
+        "col_name": "Q184: Justifiable: Abortion",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think is abortion?"
+    },
+    "28": {
+        "col_name": "H299: Justifiable: Female genital circumcision",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think is female genital circumcision(cutting)?"
+    },
+    "29": {
+        "col_name": "H300: Justifiable: To use contraceptives",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think it is to use contraceptives?"
+    },
+    "30": {
+        "col_name": "H302: Justifiable: Getting paid for porongraphic photos or films",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think it is to get paid for pornographic photos or films?"
+    },
+    "31": {
+        "col_name": "Q185: Justifiable: Divorce",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think is divorce?"
+    },
+    "32": {
+        "col_name": "Q186: Justifiable: Sex before marriage",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think is sex before marriage?"
+    },
+    "33": {
+        "col_name": "Q187: Justifiable: Suicide",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think is suicide?"
+    },
+    "34": {
+        "col_name": "Q188: Justifiable: Euthanasia",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think is euthanasia?"
+    },
+    "35": {
+        "col_name": "Q189: Justifiable: For a man to beat his wife",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think it is for a man to beat his wife?"
+    },
+    "36": {
+        "col_name": "IN_G8: On a 10 point scale please tell me how justified you think- For a man to force his wife/girlfriend to?",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think is for a man to beat his wife/girlfriend to have sex?"
+    },
+    "37": {
+        "col_name": "Q190: Justifiable: Parents beating children",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think it is for parents to beat their children?"
+    },
+    "38": {
+        "col_name": "Q191: Justifiable: Violence against other people",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think it is to use violence against other people?"
+    },
+    "39": {
+        "col_name": "Q192: Justifiable: Terrorism as a political, ideological or religious mean",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think it is to use terrorism as a political, ideological and religious mean?"
+    },
+    "40": {
+        "col_name": "Q193: Justifiable: Having casual sex",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think is having casual sex?"
+    },
+    "41": {
+        "col_name": "H301: Justifiable: To have more than one sexual partner at the same time",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think it is to have more than one sexual partner at the same time?"
+    },
+    "42": {
+        "col_name": "Q194: Justifiable: Political violence",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think is political violence?"
+    },
+    "43": {
+        "col_name": "Q195: Justifiable: Death penalty",
+        "theme": "ethics",
+        "type": "rating",
+        "question": "On a scale of 1 to 10, where 1 means never justified and 10 means always justified, how justified do you think is death penalty?"
+    },
+    "44": {
+        "col_name": "Q202: Information source: TV news",
+        "theme": "ethics",
+        "type": "choice",
+        "question": "How often do you obtain information about India and world from TV News?",
+        "numbered_options": {
+            "1": "Daily",
+            "2": "Weekly",
+            "3": "Monthly",
+            "4": "Less than monthly",
+            "5": "Never"
+        },
+        "order_to_print": "12345"
+    },
+    "45": {
+        "col_name": "Q207: Information source: Social media (Facebook, Twitter, etc.)",
+        "theme": "ethics",
+        "type": "choice",
+        "question": "How often do you obtain information about India and world from Social Media like Facebook, Twitter etc..?",
+        "numbered_options": {
+            "1": "Daily",
+            "2": "Weekly",
+            "3": "Monthly",
+            "4": "Less than monthly",
+            "5": "Never"
+        },
+        "order_to_print": "12345"
+    },
+    "46": {
+        "col_name": "Q6: Important in life: Religion",
+        "theme": "religion",
+        "type": "choice",
+        "question": "In your opinion, how significant is religion in life?",
+        "numbered_options": {
+            "1": "Very Important",
+            "2": "Rather Important",
+            "3": "Not very Important",
+            "4": "Not at all important"
+        },
+        "order_to_print": "1234"
+    },
+    "47": {
+        "col_name": "Q62: Trust: People of another religion",
+        "theme": "religion",
+        "type": "choice",
+        "question": " Do you have trust in individuals from a different religion?",
+        "numbered_options": {
+            "1": "Trust completely",
+            "2": "Trust somewhat",
+            "3": "Donot trust very much",
+            "4": "Donot trust at all"
+        },
+        "order_to_print": "1234"
+    },
+    "48": {
+        "col_name": "Q166: Believe in: life after death",
+        "theme": "religion",
+        "type": "choice",
+        "question": "Do you believe in life after death?",
+        "numbered_options": {
+            "1": "Yes",
+            "2": "No"
+        },
+        "order_to_print": "12"
+    },
+    "49": {
+        "col_name": "Q167: Believe in: hell",
+        "theme": "religion",
+        "type": "choice",
+        "question": "Do you believe in hell?",
+        "numbered_options": {
+            "1": "Yes",
+            "2": "No"
+        },
+        "order_to_print": "12"
+    },
+    "50": {
+        "col_name": "Q169: Whenever science and religion conflict,  religion is always right",
+        "theme": "religion",
+        "type": "choice",
+        "question": "Do you agree that whenever science and religion conflict, religion is always right?",
+        "numbered_options": {
+            "1": "Strongly agree",
+            "2": "Agree",
+            "3": "Disagree",
+            "4": "Strongly disagree"
+        },
+        "order_to_print": "1234"
+    },
+    "51": {
+        "col_name": "Q170: The only acceptable religion  is my religion",
+        "theme": "religion",
+        "type": "choice",
+        "question": "Do you agree that the only acceptable religion is your religion?",
+        "numbered_options": {
+            "1": "Strongly agree",
+            "2": "Agree",
+            "3": "Disagree",
+            "4": "Strongly disagree"
+        },
+        "order_to_print": "1234"
+    },
+    "52": {
+        "col_name": "Q171: How often do you attend religious services",
+        "theme": "religion",
+        "type": "choice",
+        "question": "How often do you attend religious services?",
+        "numbered_options": {
+            "1": "More than once a week",
+            "2": "Once a week",
+            "3": "Once a month",
+            "4": "Only on special holy days",
+            "5": "Once a year",
+            "6": "Less often",
+            "7": "Never, practically never"
+        },
+        "order_to_print": "1234567"
+    },
+    "53": {
+        "col_name": "Q175: Meaning of religion: To make sense of life after death vs To make sense of life in this world",
+        "theme": "religion",
+        "type": "choice",
+        "question": "In your opinion, is the primary function of religion to understand life after death or to understand life in this world?",
+        "numbered_options": {
+            "1": "To make sense of life after death",
+            "2": "To make sense of life in this world"
+        },
+        "order_to_print": "12"
+    },
+    "54": {
+        "col_name": "Q26: Neighbors: People who speak a different language",
+        "theme": "migration",
+        "type": "choice",
+        "question": "Can you please tell your opinion about having people who speak different language as your neighbors?",
+        "numbered_options": {
+            "1": "Like to see as neighbors",
+            "2": "Not like to see as neighbors"
+        },
+        "order_to_print": "12"
+    },
+    "55": {
+        "col_name": "Q34: Jobs scarce: Employers should give priority to (nation) people than immigrants",
+        "theme": "migration",
+        "type": "choice",
+        "question": "When jobs are scarce, employers should give priority to people of this country over immigrants",
+        "numbered_options": {
+            "1": "Strongly Agree",
+            "2": "Agree",
+            "3": "Neither Agree nor Disagree",
+            "4": "Disagree",
+            "5": "Disagree Strongly"
+        },
+        "order_to_print": "12345"
+    },
+    "56": {
+        "col_name": "Q124: Immigration in your country: Increases the crime rate",
+        "theme": "migration",
+        "type": "choice",
+        "question": "From your point of view, do you agree that immigration increases the crime rate in India?",
+        "numbered_options": {
+            "0": "Disagree",
+            "1": "Hard to say",
+            "2": "Agree"
+        },
+        "order_to_print": "201"
+    },
+    "57": {
+        "col_name": "Q128: Immigration in your country: Increases unemployment",
+        "theme": "migration",
+        "type": "choice",
+        "question": "From your point of view, do you agree that immigration increases unemployment in India?",
+        "numbered_options": {
+            "0": "Disagree",
+            "1": "Hard to say",
+            "2": "Agree"
+        },
+        "order_to_print": "201"
+    },
+    "58": {
+        "col_name": "Q129: Immigration in your country: Leads to social conflict",
+        "theme": "migration",
+        "type": "choice",
+        "question": "From your point of view, do you agree that immigration leads to social conflict in India?",
+        "numbered_options": {
+            "0": "Disagree",
+            "1": "Hard to say",
+            "2": "Agree"
+        },
+        "order_to_print": "201"
+    },
+    "59": {
+        "col_name": "IN_Q130b: Would you think about ever emigrating from your country – definitely yes, rather yes, rather no or definitely not?",
+        "theme": "migration",
+        "type": "choice",
+        "question": "Would you think about ever emigrating from your country?",
+        "numbered_options": {
+            "1": "Definitely yes",
+            "2": "Probably yes",
+            "3": "Probably not",
+            "4": "Definitely not"
+        },
+        "order_to_print": "1234"
+    },
+    "60": {
+        "col_name": "Q71: Confidence: The Government",
+        "theme": "governance",
+        "type": "choice",
+        "question": "How much do you believe in the government?",
+        "numbered_options": {
+            "1": "A great deal",
+            "2": "Quite a lot",
+            "3": "Not very much",
+            "4": "Not at all"
+        },
+        "order_to_print": "1234"
+    },
+    "61": {
+        "col_name": "Q156: Most important: first choice",
+        "theme": "governance",
+        "type": "choice",
+        "question": " Please tell me in your opinion, which one of these is the most important to you?",
+        "numbered_options": {
+            "1": "A stable economy",
+            "2": "Progress toward a less impersonal and more humane society",
+            "3": "Progress toward a society in which ideas count more than money",
+            "4": "The fight against crime"
+        },
+        "order_to_print": "1234"
+    },
+    "62": {
+        "col_name": "Q223: Which party would you vote for if there were a national election tomorrow",
+        "theme": "governance",
+        "type": "choice",
+        "question": " If there was national election tomorrow, for which party on this list would you vote?",
+        "numbered_options": {
+            "1": "Congress",
+            "2": "BJP",
+            "3": "Left (CPI, CPI (M) etc)",
+            "4": "Regional/State Party",
+            "5": "Other (specify)"
+        },
+        "order_to_print": "12345"
+    },
+    "63": {
+        "col_name": "Q239: Political system: Having a system governed by religious law in which there are no political parties or elections",
+        "theme": "governance",
+        "type": "choice",
+        "question": "Do you think Having a system governed by religious law in which there are no political parties or elections?",
+        "numbered_options": {
+            "1": "Very good",
+            "2": "Fairly good",
+            "3": "Fairly bad",
+            "4": "Very bad"
+        },
+        "order_to_print": "1234"
+    },
+    "64": {
+        "col_name": "Q244: Democracy: People receive state aid for unemployment",
+        "theme": "governance",
+        "type": "rating",
+        "question": "Please tell me about concept of people receiving state aid for unemployment, how essential it is as a characteristic of democracy? Use a scale from 1 to 10, where 1 means \"not at all an essential characteristic of democracy\" and 10 means it definitely is \"an essential characteristic of democracy\"."
+    },
+    "65": {
+        "col_name": "Q247: Democracy: The state makes people's incomes equal",
+        "theme": "governance",
+        "type": "rating",
+        "question": "Please tell me about concept of state making people's incomes equal, how essential it is as a characteristic of democracy? Use a scale from 1 to 10, where 1 means \"not at all an essential characteristic of democracy\" and 10 means it definitely is \"an essential characteristic of democracy\"."
+    },
+    "66": {
+        "col_name": "Q252: Satisfaction with the political system performance",
+        "theme": "governance",
+        "type": "rating",
+        "question": " On a scale from 1 to 10 where \"1\" is \"not satisfied at all\" and \"10\" is \"completely satisfied\", how satisfied are you with how the political system is functioning in India these days? "
+    }
+}
