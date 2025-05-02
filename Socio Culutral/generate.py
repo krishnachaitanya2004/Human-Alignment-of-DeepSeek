@@ -16,7 +16,7 @@ import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import argparse
 
-api_key = "tgp_v1_lMRRqHglTQxiy8iGJNBRRsHuDlr8pHlPvgl26i_5XwU"
+api_key = "YOUR_API_KEY"
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--category', type=str, help='Bias Category - Religion or Gender_identity or Age')
