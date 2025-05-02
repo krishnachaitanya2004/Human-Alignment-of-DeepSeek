@@ -144,8 +144,6 @@ def main():
 
 main()
 
-print("llll")
-
 # download
 from google.colab import files
 files.download(f'scores_{lang}.json')
